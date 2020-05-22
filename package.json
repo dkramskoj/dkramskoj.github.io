@@ -3,7 +3,7 @@
   "version": "2.10.0-rc.2",
   "private": true,
   "author": "Mirumee",
-  "homepage": "https://dkramskoj.github.io/",
+  "homepage": "https://dkramskoj.github.io/saleor-front",
   "main": "dist/index.js",
   "browserslist": "last 2 versions",
   "dependencies": {
