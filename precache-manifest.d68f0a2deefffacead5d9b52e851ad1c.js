@@ -1,9 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "url": "./app.18fb52b638951301284d.css"
+    "url": "./app.dd912e9ed464bb6ad724.css"
   },
   {
-    "revision": "a29562ca3d2d189a6faf",
+    "revision": "155544a5da5f6416a0b2",
     "url": "./js/app.c3c17cb2d906583f7c0d.js"
   },
   {
@@ -307,7 +307,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "images/youtube-icon.svg"
   },
   {
-    "revision": "f3ad2e795d8a13e2c08ecd28b397a1eb",
+    "revision": "934b6752d5ba1a528f1cf9801e7d2f3f",
     "url": "index.html"
   }
 ]);
