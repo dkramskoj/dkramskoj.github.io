@@ -9,6 +9,9 @@ if (!process.env.API_URI) {
   throw new Error("Environment variable API_URI not set");
 }
 
+console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+console.log(process.env.NODE_ENV)
+console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 module.exports = ({ sourceDir, distDir }) => ({
   resolve: {
     alias: {
@@ -26,7 +29,7 @@ module.exports = ({ sourceDir, distDir }) => ({
   },
   output: {
     path: distDir,
-    publicPath: "/",
+      publicPath: process.env.NODE_ENV !== 'production' ? '' : "/",
   },
   devtool: "source-map",
   module: {
